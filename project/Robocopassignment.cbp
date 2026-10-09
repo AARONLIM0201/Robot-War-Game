@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Robocopassignment" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../build/Debug/Robocopassignment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../build/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../build/Release/Robocopassignment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../build/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../include" />
+		</Compiler>
+		<Unit filename="../include/Classheader.h" />
+		<Unit filename="../include/Destroyedqueue.h" />
+		<Unit filename="../include/Queue.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../include/Robot.h" />
+		<Unit filename="../include/RobotLinkedList.h" />
+		<Unit filename="../data/output/fileOutput1.txt" />
+		<Unit filename="../data/output/fileOutput2.txt" />
+		<Unit filename="../data/output/fileOutput3.txt" />
+		<Unit filename="../data/output/fileOutput4.txt" />
+		<Unit filename="../data/input/fileinput1.txt" />
+		<Unit filename="../data/input/fileinput2.txt" />
+		<Unit filename="../data/input/fileinput3.txt" />
+		<Unit filename="../data/input/fileinput4.txt" />
+		<Unit filename="../src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

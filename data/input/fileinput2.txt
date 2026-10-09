@@ -1,0 +1,8 @@
+M by N: 5 5
+Turns: 10
+Robots: 5
+RoboCop 			RC01 	0 0
+Terminator 		    TE01 	0 1
+TerminatorRoboCop 	TR01 	0 4
+Madbot 			    MB01	0 2
+RoboCop 			RC02 	1 1

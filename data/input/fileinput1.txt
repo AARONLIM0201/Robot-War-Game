@@ -1,0 +1,10 @@
+M by N: 8 8
+Turns: 10
+Robots: 7
+TerminatorRoboCop      TR01   random random
+RoboCop                RC01   random random
+Terminator             TE01   random random
+UltimateRobot          UR01   random random
+RoboTank               RT01   random random
+Madbot                 MB01   random random
+BlueThunder            BT01   random random
